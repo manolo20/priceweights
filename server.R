@@ -5,7 +5,7 @@ library(ggplot2)
 library(DT)
 
 
-weights1 <- readRDS("/home/atai/Documents/Coursera/Developing_data_products/Assign_3/application/data/weights1.rds")
+weights1 <- readRDS("./data/weights1.rds")
 
 
 shinyServer(function(input, output) {
