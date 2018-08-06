@@ -5,7 +5,7 @@ library(ggplot2)
 library(DT)
 
 
-weights1 <- readRDS("/home/atai/Documents/Coursera/Developing_data_products/Assign_3/application/data/weights1.rds")
+weights1 <- readRDS("./data/weights1.rds")
 
 fluidPage(
   titlePanel(title = h4("Comparing price contribution percentage of prices of Ontario, Quebec and Alberta to the overall Canadian Consumer Price Index (CPI)", align = "center")),
